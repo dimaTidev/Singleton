@@ -1,0 +1,13 @@
+{
+	"name": "com.dimati.singleton",
+	"displayName": "Singleton",
+	"version": "0.0.1",
+	"unity": "2018.4",
+	"description": "Singleton scripts",
+	"author": "DimaTi <timofeenkodima@gmail.com> (https://github.com/dimaTidev)",
+	"repository": 
+	{
+	    "type": "git",
+	    "url": "https://github.com/dimaTidev/Singleton.git"
+	}
+}
