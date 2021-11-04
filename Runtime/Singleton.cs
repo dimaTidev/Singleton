@@ -33,6 +33,6 @@ public class Singleton<T> : MonoBehaviour, ISingleton where T : Singleton<T>
     void ISingleton.OnAwake()
     {
         Initialize();
-        //Debug.Log("ISingleton:" + typeof(T).Name);
+       // Debug.Log("ISingleton:" + typeof(T).Name + " instance id:" + gameObject.GetInstanceID());
     }
 }
