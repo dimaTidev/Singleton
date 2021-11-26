@@ -1,0 +1,14 @@
+{
+"name" : "com.dimati.singleton.RuntimeTests",
+ "references": [
+     "com.dimati.singleton.Runtime"
+ ],
+ "optionalUnityReferences": [],
+ "excludePlatforms": [],
+ "allowUnsafeCode": false,
+ "overrideReferences": false,
+ "precompiledReferences": [],
+ "autoReferenced": true,
+ "defineConstraints": []
+
+}

@@ -1,16 +1,21 @@
 {
-	"name": "com.dimati.singleton",
-	"displayName": "Singleton",
-	"version": "0.0.3",
-	"unity": "2018.4",
-	"description": "Singleton scripts",
-	"author": "DimaTi <timofeenkodima@gmail.com> (https://github.com/dimaTidev)",
-	"keywords": [
-    	"Base"
-  	],
-	"repository": 
-	{
-	    "type": "git",
-	    "url": "https://github.com/dimaTidev/Singleton.git"
-	}
+    "name": "com.dimati.singleton",
+    "displayName": "Singleton",
+    "version": "0.0.3",
+    "unity": "2018.4",
+    "unityRelease": "27f1",
+    "description": "Singleton scripts",
+    "author": "DimaTi <timofeenkodima@gmail.com> (https://github.com/dimaTidev)",
+    "keywords": [
+        "Base"
+    ],
+    "category": "Base",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dimaTidev/Singleton.git"
+    },
+    "gitDependencies": {
+    },
+    "dependencies": {
+    }
 }

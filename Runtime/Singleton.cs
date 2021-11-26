@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
 
-public class Singleton<T> : MonoBehaviour, ISingleton where T : Singleton<T>
+public abstract class Singleton<T> : MonoBehaviour, ISingleton where T : Singleton<T>
 {
     private static T instance;
-    bool isInitialized;
+    bool isInitialized; //Need for avoid recall from interface ISingleton.OnAwake()
 
     public static T Instance => instance;
 
