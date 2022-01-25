@@ -30,9 +30,5 @@ public abstract class Singleton<T> : MonoBehaviour, ISingleton where T : Singlet
             instance = null;
     }
 
-    void ISingleton.OnAwake()
-    {
-        Initialize();
-       // Debug.Log("ISingleton:" + typeof(T).Name + " instance id:" + gameObject.GetInstanceID());
-    }
+    void ISingleton.OnAwake() => Awake(); // Debug.Log("ISingleton:" + typeof(T).Name + " instance id:" + gameObject.GetInstanceID());
 }

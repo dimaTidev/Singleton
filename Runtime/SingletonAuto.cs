@@ -44,9 +44,5 @@ public abstract class SingletonAuto<T> : MonoBehaviour, ISingleton where T : Sin
             instance = null;
     }
 
-    void ISingleton.OnAwake()
-    {
-        Initialize();
-        //Debug.Log("ISingleton:" + typeof(T).Name);
-    }
+    void ISingleton.OnAwake() => Awake(); //Debug.Log("ISingleton:" + typeof(T).Name);
 }
